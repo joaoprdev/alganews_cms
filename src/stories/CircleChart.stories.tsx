@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import CircleChart, { CircleChartProps} from '../components/CircleChart';
+import CircleChart, { CircleChartProps} from '../app/components/CircleChart';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import Confirm, { ConfirmProps} from '../components/Confirm/Confirm';
+import Confirm, { ConfirmProps} from '../app/components/Confirm/Confirm';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

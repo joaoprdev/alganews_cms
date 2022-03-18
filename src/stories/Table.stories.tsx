@@ -5,7 +5,7 @@ import { useMemo } from 'react';
 import { Column, useTable } from 'react-table';
 import { ProgressPlugin } from 'webpack';
 
-import Table from '../components/Table/Table';
+import Table from '../app/components/Table/Table';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import ErrorDisplay, { ErrorDisplayProps} from '../components/ErrorDisplay';
+import ErrorDisplay, { ErrorDisplayProps} from '../app/components/ErrorDisplay';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

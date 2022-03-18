@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './core/imports.css';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './app/views/Home.view';
+import NotFound404 from './app/views/NotFound404.view';
+import GlobalStyles from './core/globalStyles'
+import EditorsListView from './app/views/EditorsList.view';
+import PostCreateView from './app/views/PostCreate.view';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/editores' element={<EditorsListView/>} />
+          <Route path='/post/criar' element={<PostCreateView />} />
+          <Route path="*" element={<NotFound404 />} />     
+        </Routes>
+      </BrowserRouter>
+      <GlobalStyles />
   </React.StrictMode>,
   document.getElementById('root')
 );

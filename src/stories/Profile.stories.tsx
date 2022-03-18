@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import Profile, { ProfileProps} from '../components/Profile';
+import Profile, { ProfileProps} from '../app/components/Profile';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

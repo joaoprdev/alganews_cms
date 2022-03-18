@@ -1,3 +1,4 @@
+import { transparentize } from "polished";
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
@@ -23,7 +24,7 @@ export const Circle = styled.circle`
 `
 
 export const CircleBG = styled.circle.attrs({
-  fill: '#fff',
+  fill: 'none',
 })``
 
 export const Percentage = styled.span`

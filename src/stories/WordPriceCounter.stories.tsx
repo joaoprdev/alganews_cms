@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import WordPriceCounter, { WordPriceCounterProps} from '../components/WordPriceCounter';
+import WordPriceCounter, { WordPriceCounterProps} from '../app/components/WordPriceCounter';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

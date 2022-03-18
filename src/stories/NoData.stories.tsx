@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import NoData, { NoDataProps} from '../components/NoData/NoData';
+import NoData, { NoDataProps} from '../app/components/NoData/NoData';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

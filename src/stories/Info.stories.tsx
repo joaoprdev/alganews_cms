@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import Info, { InfoProps} from '../components/Info/Info';
+import Info, { InfoProps} from '../app/components/Info/Info';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

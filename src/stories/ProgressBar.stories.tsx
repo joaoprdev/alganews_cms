@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import ProgressBar, { ProgressBarProps} from '../components/ProgressBar/ProgressBar';
+import ProgressBar, { ProgressBarProps} from '../app/components/ProgressBar/ProgressBar';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
