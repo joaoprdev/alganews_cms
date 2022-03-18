@@ -16,4 +16,5 @@ export default function MarkdownEditor (props : MarkdownEditorProps) {
     renderHTML={text => parser.render(text)}
     onChange={({ text }) => props.onChange && props.onChange(text)}
   />
+  
 }
