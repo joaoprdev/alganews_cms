@@ -1,3 +1,4 @@
+import confirm from '../../../core/utils/confirm'
 import Logo from '../../components/Logo'
 import NavBarLink from '../../components/NavBarLink'
 import SessionController from '../../components/SessionController'
@@ -27,6 +28,13 @@ function DefaultLayout ( props: DefaultLayoutProps) {
         <SessionController
           name="João Paulo Rodrigues"
           description="editor há 2 anos"
+          onLogout={() => {
+            confirm({
+              title: 'Você quer deslogar?',
+              onConfirm: () => window.alert('Confirme'),
+              onCancel: () => window.alert('Cancelo')
+            })
+          }}
         />
       </DL.Aside>
     </DL.Main>
