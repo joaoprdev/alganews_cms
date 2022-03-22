@@ -8,6 +8,7 @@ import NotFound404 from './app/views/NotFound404.view';
 import GlobalStyles from './core/globalStyles'
 import EditorsListView from './app/views/EditorsList.view';
 import PostCreateView from './app/views/PostCreate.view';
+import EditorProfileView from './app/views/EditorProfile.view';
 
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/editores' element={<EditorsListView/>} />
+          <Route path='/editores/:id' element={<EditorProfileView />} />
           <Route path='/post/criar' element={<PostCreateView />} />
           <Route path="*" element={<NotFound404 />} />     
         </Routes>
